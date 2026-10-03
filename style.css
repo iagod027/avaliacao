@@ -16,6 +16,15 @@ body{
     background-color: #2484bf;
 }
 
+.icon{
+    justify-content: left;
+    background-color: white;
+}
+
+.menu{
+    justify-content: end;
+}
+
 h1{
     font-size: 18px;
 }
@@ -30,8 +39,13 @@ p{
 }
 
 .grid6 div{
-    background-color: rgb(17, 59, 175);
     color: rgb(0, 0, 0);
     padding: 30px;
     text-align: center;
+}
+
+footer{
+        display: grid;
+    background-color: white;
+    grid-template-columns: repeat();
 }
