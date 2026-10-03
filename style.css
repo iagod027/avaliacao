@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "trebuc";
+    src: url(./Fonts/trebuc.ttf);
+}
+
+*{
+    font-family: "trebuc";
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #0a4b73;
+}
+.container{
+    background-color: #2484bf;
+}
+
+h1{
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+}
+.grid6{
+    display: grid;
+    background-color: white;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid6 div{
+    background-color: rgb(17, 59, 175);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-align: center;
+}
